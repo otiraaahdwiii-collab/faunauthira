@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Spesies Fauna</title>
+  <link rel="stylesheet" href="spesies.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Spesies Fauna</h1>
+    <nav>
+      <ul>
+        <a href="index.html">Home</a>
+        <a href="nusantara.html">Fauna Nusantara</a>
+        <a href="spesies.html">Spesies</a>
+        <a href="form.html">Form</a>
+      </ul>
+    </nav>
+  </header>
+
+<section class="judul-spesies">
+  <h2>Jenis-Jenis Spesies Fauna</h2>
+</section>
+
+<section class="list-spesies">
+
+  <div class="card">
+    <h3>Mamalia</h3>
+    <div class="img-box">
+      <img src="mamaliia.jpg" alt="Mamalia" data-foto="popupFotoMamalia">
+    </div>
+    <button class="detail-btn" data-target="popupMamalia">Detail</button>
+  </div>
+
+  <div class="card">
+    <h3>Reptil</h3>
+    <div class="img-box">
+      <img src="reptil.jpg" alt="Reptil" data-foto="popupFotoReptil">
+    </div>
+    <button class="detail-btn" data-target="popupReptil">Detail</button>
+  </div>
+
+  <div class="card">
+    <h3>Serangga</h3>
+    <div class="img-box">
+      <img src="serangga.jpg" alt="Serangga" data-foto="popupFotoSerangga">
+    </div>
+    <button class="detail-btn" data-target="popupSerangga">Detail</button>
+  </div>
+
+</section>
+
+<div id="popupMamalia" class="popup">
+  <div class="popup-content">
+    <span class="close">&times;</span>
+    <h2>Mamalia</h2>
+    <p>Mamalia adalah hewan yang memiliki kelenjar susu untuk menyusui anaknya, umumnya berbulu, dan bernapas dengan paru-paru. 
+        Sebagian besar mamalia melahirkan, meskipun ada yang bertelur seperti platipus. 
+        Contoh mamalia adalah sapi, kucing, harimau, gajah, dan orangutan. 
+        Mamalia berperan penting dalam menjaga keseimbangan ekosistem, baik sebagai pemakan tumbuhan maupun predator.</p>
+  </div>
+</div>
+
+<div id="popupReptil" class="popup">
+  <div class="popup-content">
+    <span class="close">&times;</span>
+    <h2>Reptil</h2>
+    <p>Reptil merupakan hewan melata yang memiliki kulit bersisik, berdarah dingin, dan berkembang biak dengan bertelur. 
+        Reptil biasanya hidup di darat maupun air dan dapat beradaptasi dengan lingkungan yang kering. 
+        Contoh reptil antara lain ular, kadal, buaya, dan komodo. Reptil berperan sebagai pengendali populasi hewan lain di alam.</p>
+  </div>
+</div>
+
+<div id="popupSerangga" class="popup">
+  <div class="popup-content">
+    <span class="close">&times;</span>
+    <h2>Serangga</h2>
+    <p>Serangga adalah hewan kecil yang memiliki tubuh terbagi menjadi tiga bagian, yaitu kepala, dada, dan perut, serta umumnya memiliki enam kaki. 
+        Serangga berkembang biak dengan bertelur dan banyak yang mengalami metamorfosis. 
+        Contoh serangga adalah kupu-kupu, semut, lebah, nyamuk, dan belalang. 
+        Serangga memiliki peran penting seperti membantu penyerbukan tanaman dan menjadi bagian dari rantai makanan.</p>
+  </div>
+</div>
+
+<div id="popupFotoMamalia" class="popup">
+  <div class="popup-content">
+    <span class="close">&times;</span>
+    <h2>Contoh Mamalia</h2>
+    <div class="foto-grid">
+      <img src="lumba lumba.jpg">
+      <img src="kelelawar.jpg">
+      <img src="kangguru.jpg">
+    </div>
+  </div>
+</div>
+
+<div id="popupFotoReptil" class="popup">
+  <div class="popup-content">
+    <span class="close">&times;</span>
+    <h2>Contoh Reptil</h2>
+    <div class="foto-grid">
+      <img src="ular.jpg">
+      <img src="iguana.jpg">
+      <img src="kadal.jpg">
+    </div>
+  </div>
+</div>
+
+<div id="popupFotoSerangga" class="popup">
+  <div class="popup-content">
+    <span class="close">&times;</span>
+    <h2>Contoh Serangga</h2>
+    <div class="foto-grid">
+      <img src="kupukupu.jpg">
+      <img src="lebah.jpg">
+      <img src="jangkrik.jpg">
+    </div>
+  </div>
+</div>
+
+<footer>
+  <p>&copy; 2025 Authira Dwi Khairunnisa</p>
+</footer>
+
+<script src="spesies.js"></script>
+</body>
+</html>
