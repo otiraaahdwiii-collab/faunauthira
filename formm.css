@@ -40,64 +40,78 @@ section {
 }
 
 .contact {
-    padding: 50px;
-    text-align: center; 
+  padding: 50px;
+  text-align: center;
 }
 
 .contact form {
-    max-width: 600px;
-    margin: 0 auto;     
-    text-align: left;   
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
 }
 
-
+/* Judul */
 .contact h1 {
-    font-size: 36px;
-    margin-bottom: 20px;
+  font-size: 36px;
+  margin-bottom: 20px;
 }
 
 .contact p {
-    font-size: 16px;
-    margin-bottom: 30px;
+  font-size: 16px;
+  margin-bottom: 30px;
 }
 
 /* Form */
 form {
-    max-width: 600px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 
-input, textarea {
-    padding: 12px;
-    border-radius: 8px;
-    border: 1px solid #ccc;
-    font-size: 16px;
-    transition: border 0.3s, box-shadow 0.3s;
+/* ===== PERBAIKAN UKURAN KOTAK ===== */
+form label {
+  width: 100%;
 }
 
-input:focus, textarea:focus {
-    border-color: #3a6ea5;
-    box-shadow: 0 0 10px rgba(255,105,180,0.3);
-    outline: none;
+form label input,
+form label textarea {
+  width: 100%;
+  box-sizing: border-box;
+}
+/* ================================= */
+
+input,
+textarea {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  transition: border 0.3s, box-shadow 0.3s;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #3a6ea5;
+  box-shadow: 0 0 10px rgba(255, 105, 180, 0.3);
+  outline: none;
 }
 
 button {
-    padding: 12px;
-    background-color: #3a6ea5;
-    color: white;
-    font-size: 16px;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: transform 0.3s, background-color 0.3s;
+  padding: 12px;
+  background-color: #3a6ea5;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.3s, background-color 0.3s;
 }
 
 button:hover {
-    transform: scale(1.05);
-    background-color: #3a6ea5;
+  transform: scale(1.05);
+  background-color: #3a6ea5;
 }
 
 footer {
